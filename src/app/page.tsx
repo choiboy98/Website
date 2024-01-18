@@ -1,6 +1,6 @@
 'use client';
 
-import '../css/landing.css'
+import './css/landing.css'
 import { useState } from 'react';
 
 import CountryButton from '../components/countryButton';
