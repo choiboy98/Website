@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-vid {
+    width: 100vw;
+    height: 100vh;
+    margin: auto auto auto auto;
+    background-color: black;
+    transition: 2s;
+}
+
+.focused-vid {
+    width: 70vw;
+    height: 70vh;
+    margin: auto auto auto auto;
+    background-color: black;
+    transition: 2s;
+}
+
+.vid {
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+}
+
+.mute {
+    cursor: pointer;
+    top: 5%;
+    right: 5%;
+    position: absolute;
+    background-color: lavender;
+    color: green;
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+}
+
+.landing-container {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+}
+
+.landing-text {
+    margin: 0;
+    line-height: 1;
+    font-family: "Galfego";
+    font-size: 10vw;
+    opacity: 1;
+    transition: 2s;
+}
+
+.vanish-landing-text {
+    margin: 0;
+    line-height: 1;
+    font-family: "Galfego";
+    font-size: 10vw;
+    opacity: 0;
+    transition: 2s;
+}
+
+.country-text {
+    top: 50%;
+    left: 70%;
+    padding-right: 10%;
+    position: fixed;
+    width: 30vw;
+    opacity: 1;
+    transition: 2s; 
+}
+
+.vanish-country-text {
+    top: 50%;
+    left: 70%;
+    padding-right: 10%;
+    position: fixed;
+    width: 30vw;
+    opacity: 0;
+    transition: 2s; 
+}
+
+.country-header-text {
+    line-height: 1;
+    font-size: 2vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.country-sub-text {
+    font-size: 1vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
