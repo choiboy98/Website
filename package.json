@@ -7,9 +7,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "static": "next build && touch ./out/.nojekyll && echo 'www.brb-traveling.com' > ./out/CNAME",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
     "next": "^14.0.4",

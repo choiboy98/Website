@@ -1,4 +1,4 @@
-import { Country } from "../country";
+import { Country } from "../app/country";
 
 const Title = "KOREA";
 const CountryCode = "KR";
