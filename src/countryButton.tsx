@@ -1,5 +1,5 @@
 import React, { Dispatch, SetStateAction } from 'react';
-import 'countries.css';
+import './countries.css';
 import { Country } from './country';
 
 function focusCountry(country: Country, displaySelectedCountry: Dispatch<SetStateAction<Country>>, showcaseCountry = () => {}) {
