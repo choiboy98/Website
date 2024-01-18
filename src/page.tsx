@@ -1,12 +1,12 @@
 'use client';
 
-import '../css/landing.css'
+import 'landing.css'
 import { useState } from 'react';
 
-import CountryButton from '../components/countryButton';
-import CountryRenderer from '../components/countryRenderer';
-import { countries } from "../components/countryExport";
-import { Country } from '@/components/country';
+import CountryButton from './countryButton';
+import CountryRenderer from './countryRenderer';
+import { countries } from "./countryExport";
+import { Country } from '@/country';
 
 export default function Home() {
   const dummyCountry = new Country("", "", "", "", "");

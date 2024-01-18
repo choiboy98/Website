@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTransition, animated } from '@react-spring/web'
-import '../css/countries.css';
+import 'countries.css';
 
 export default function CountryRenderer(slides : Array<String>, isFocused: Boolean) {
 
