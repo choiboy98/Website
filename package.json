@@ -1,7 +1,7 @@
 {
   "name": "brb-traveling",
   "version": "0.1.0",
-  "homepage": "https://choiboy98.github.io/",
+  "homepage": "https://choiboy98.github.io/brb-traveling",
   "private": true,
   "scripts": {
     "dev": "next dev",

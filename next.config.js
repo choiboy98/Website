@@ -2,7 +2,7 @@
 const nextConfig = {
     output: 'export',
 
-    basePath: '/'
+    basePath: '/brb-traveling'
 }
 
 module.exports = nextConfig
