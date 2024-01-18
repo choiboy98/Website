@@ -12,6 +12,6 @@ export default function CountryButton(country: Country, displaySelectedCountry: 
         <img 
         onClick={() => focusCountry(country, displaySelectedCountry, showcaseCountry)}
         className='flag' 
-        src={'../assets/flags/4x3/' + country.countryCode + '.svg'}/>
+        src={'../brb-traveling/assets/flags/4x3/' + country.countryCode + '.svg'}/>
     )
 }
