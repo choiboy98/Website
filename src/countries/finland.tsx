@@ -4,7 +4,7 @@ const Title = "FINLAND";
 const CountryCode = "FI";
 const TitleText = "Finland? More like SkySauna and Santa Claus Village!";
 const SubText =
-    "To be fair, I haven't traveled a lot. Though, I can confidently say this country has one of the best nature and wonders in the whole world. Every corner around the block surprises you with new discoveries. So many sheeps, hot springs, mountains, and great hot dogs. What more can you ask for?";
+    "Finland wasn't on my travel list. But what I saw the SkySauna and the Santa Claus Village? Finland was next on my list! Though the cities weren't too impressive, these two attractions won my heart.";
 const textStyles = {
     color: '#A7C7E7'
 };

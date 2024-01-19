@@ -2,9 +2,9 @@ import { Country } from "../app/country";
 
 const Title = "NORWAY";
 const CountryCode = "NO";
-const TitleText = "Iceland might be the most beautiful country I've visited.";
+const TitleText = "Enlist me in the Viking army because I am in love with this place!";
 const SubText =
-    "To be fair, I haven't traveled a lot. Though, I can confidently say this country has one of the best nature and wonders in the whole world. Every corner around the block surprises you with new discoveries. So many sheeps, hot springs, mountains, and great hot dogs. What more can you ask for?";
+    "Norway was another beautiful place that I will long to visit again. The city, fjords, history, and the people were far too great. I also had a funny interaction with a Norwegian person at the gym because we didn't speak and just gestured to spot each other.";
 const textStyles = {
     color: '#A7C7E7'
 };

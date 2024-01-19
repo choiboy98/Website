@@ -2,9 +2,9 @@ import { Country } from "../app/country";
 
 const Title = "KOREA";
 const CountryCode = "KR";
-const TitleText = "Iceland might be the most beautiful country I've visited.";
+const TitleText = "22 hour layover? Let me make the best of it!";
 const SubText =
-    "To be fair, I haven't traveled a lot. Though, I can confidently say this country has one of the best nature and wonders in the whole world. Every corner around the block surprises you with new discoveries. So many sheeps, hot springs, mountains, and great hot dogs. What more can you ask for?";
+    "It's been a long time since I've last visited Korea. While I was only there for 22 hours and my friends planned to travel around Korea for longer, I made the best out of my time and showed my friends how to enjoy Korea.";
 const textStyles = {
     color: '#A7C7E7'
 };
