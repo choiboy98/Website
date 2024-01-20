@@ -30,7 +30,7 @@ export default function Home() {
     <div className='background-page'>
       <div className={isFocused ? "focused-vid" : "landing-vid"}>
         <LazyLoadComponent>
-          <video className="vid" loop muted={isMuted} preload='none'>
+          <video className="vid" loop muted={isMuted} preload='none' controls>
             <source src="https://media.githubusercontent.com/media/choiboy98/brb-traveling/main/public/assets/videos/taiwan-website-smallest.mp4" type="video/mp4"/>
           </video>
         </LazyLoadComponent>
