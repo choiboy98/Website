@@ -28,8 +28,8 @@ export default function Home() {
   return (
     <div className='background-page'>
       <div className={isFocused ? "focused-vid" : "landing-vid"}>
-        <video className="vid" autoPlay loop muted={isMuted}>
-          <source src="https://media.githubusercontent.com/media/choiboy98/brb-traveling/main/public/assets/videos/taiwan-website-small.mp4" type="video/mp4"/>
+        <video className="vid" loop muted={isMuted} preload='none'>
+          <source src="https://media.githubusercontent.com/media/choiboy98/brb-traveling/main/public/assets/videos/taiwan-website-smallest.mp4" type="video/mp4"/>
         </video>
 
         <p onClick={() => toggleMute(!isMuted)} className='mute'>{isMuted ? "unmute" : "mute"}</p>
