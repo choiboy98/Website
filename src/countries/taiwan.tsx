@@ -2,9 +2,9 @@ import { Country } from "../app/country";
 
 const Title = "TAIWAN";
 const CountryCode = "TW";
-const TitleText = "Iceland might be the most beautiful country I've visited.";
+const TitleText = "Taiwan has the best food and people by far!";
 const SubText =
-    "To be fair, I haven't traveled a lot. Though, I can confidently say this country has one of the best nature and wonders in the whole world. Every corner around the block surprises you with new discoveries. So many sheeps, hot springs, mountains, and great hot dogs. What more can you ask for?";
+    "I am for sure visiting Taiwan again. I didn't get to visit the night market! I was hungover from going out on my friend's birthday (oops me). The food and the people were absolutely unbeatable and fantastic. I do want to learn more chinese to be able to speak with the locals there.";
 const textStyles = {
     color: '#A7C7E7'
 };
