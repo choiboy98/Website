@@ -4,10 +4,10 @@ import './landing.css'
 import { useState } from 'react';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
-import CountryButton from './countryButton';
-import CountryRenderer from './countryRenderer';
-import { countries } from "./countryExport";
-import { Country } from '@/app/country';
+import CountryButton from './components/countryButton';
+import CountryRenderer from './components/countryRenderer';
+import { countries } from "./components/countryExport";
+import { Country } from '@/app/components/country';
 
 export default function Home() {
   const dummyCountry = new Country("", "", "", "", "");

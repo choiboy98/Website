@@ -1,4 +1,4 @@
-import { Country } from "../app/country";
+import { Country } from "../app/components/country";
 
 const Title = "NORWAY";
 const CountryCode = "NO";
